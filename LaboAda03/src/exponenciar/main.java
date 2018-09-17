@@ -5,13 +5,15 @@
  */
 package laboAda03;
 
+import exponenciar.exponenciar;
+
 /**
  *
  * @author LaboratorioFISI
  */
 public class main {
     public static void main(String[] args) {
-       /* int b[] = {6,34,97,2,12,43,34,54,24,5566,23,23,5,3,124};
+        int b[] = {6,34,97,2,12,43,34,54,24,5566,23,23,5,3,124};
         for(int x : b){
         System.out.print(x + ",");
     }
@@ -19,7 +21,7 @@ public class main {
         MergeSort.mergeSort(b,0,b.length-1);
         for(int x : b){
         System.out.print(x+ ",");
-    }*/
+    }
           System.out.print(exponenciar.potencia(50,91));
     }
 }
