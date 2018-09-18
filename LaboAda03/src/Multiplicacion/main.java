@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exponenciar;
-
-import exponenciar.exponenciar;
+package Multiplicacion;
 
 /**
  *
- * @author LaboratorioFISI
+ * @author Nagamine
  */
 public class main {
     public static void main(String[] args) {
-        System.out.println(exponenciar.potencia(10, 5));
+        int a = mult.multiplica2(3,50000);
+        int b = mult.multiplica2(33324,5324);
+        System.out.println(a);
+        System.out.println(b);
     }
 }

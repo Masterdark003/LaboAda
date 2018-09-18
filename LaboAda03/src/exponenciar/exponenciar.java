@@ -10,15 +10,25 @@ package exponenciar;
  * @author LaboratorioFISI
  */
 public class exponenciar {
-    public static double potencia(double base, int exp) {
-        double result;
+    public static int potencia(int base, int exp) {
+        int result = base * base;
         if (exp <= 1) {
             return base;
         } else if (exp % 2 == 1) {
-               return base*potencia(base,exp-1);                      
+               return base*potencia(result,(exp-1)/2);                      
         } else {
-            result =base*base;
-            System.out.println(result);
+            //System.out.println(result);
+            return potencia(result, exp / 2);
+        }
+    }
+     public static double potencia(double base, int exp) {
+        double result = base * base;
+        if (exp <= 1) {
+            return base;
+        } else if (exp % 2 == 1) {
+               return base*potencia(result,(exp-1)/2);                      
+        } else {
+            //System.out.println(result);
             return potencia(result, exp / 2);
         }
     }
