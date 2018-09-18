@@ -12,7 +12,7 @@ package Multiplicacion;
 public class main {
     public static void main(String[] args) {
         int a = mult.multiplica2(3,50000);
-        int b = mult.multiplica2(33324,5324);
+        int b = mult.multiplica2(3333,2544);
         System.out.println(a);
         System.out.println(b);
     }
